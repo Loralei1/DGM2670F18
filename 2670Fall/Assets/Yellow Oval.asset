@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b8ce9e37d2ae8b458ab3bee073b9d04, type: 3}
+  m_Name: Yellow Oval
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1730279294851694, guid: c42ead62b82784543b229c159d76b83d, type: 2}
+  SpriteImage: {fileID: 21300004, guid: bd39c519bca02a94d8150e2d7da259b1, type: 3}
+  SpriteColor: {r: 1, g: 0.8612033, b: 0, a: 1}
