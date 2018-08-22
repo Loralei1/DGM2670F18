@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10845064\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_2670Fall.-1995972236.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10845064\Documents\GitRepos\DGM2670F18\2670Fall" t="IncludeRecursive">
+    <e p="C:\Users\msear\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_2670Fall.-1720125212.00" t="ExcludeRecursive" />
+    <e p="C:\Users\msear\Documents\GitRepos\DGM2670F18\2670Fall" t="IncludeRecursive">
       <e p="2670Fall.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="FloatValue.cs" t="Include" />
-        <e p="IfStatements.cs" t="Include" />
-      </e>
+      <e p="Assets\Death.cs" t="Include" />
+      <e p="Assets\FloatValue.cs" t="Include" />
+      <e p="Assets\HealthBar.cs" t="Include" />
+      <e p="Assets\IfStatements.cs" t="Include" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
