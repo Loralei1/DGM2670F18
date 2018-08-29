@@ -8,6 +8,9 @@ public class EventScript : MonoBehaviour
 
     public UnityEvent MyEvent;
     public UnityEvent Event;
+    public UnityEvent AnEvent;
+    public UnityEvent WordEvent;
+    public UnityEvent JumpEvent;
 
     private void Start()
     {
@@ -19,9 +22,21 @@ public class EventScript : MonoBehaviour
         {
           Event.Invoke();  
         }
-   
 
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        AnEvent.Invoke();
+    }
+
+    private void OnMouseOver()
+    {
+        WordEvent.Invoke();
+    }
+
+    private void OnMouseExit()
+    {
+        JumpEvent.Invoke();
+    }
 
     /*private void OnMouseDown()
     {
