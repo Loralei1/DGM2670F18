@@ -6,13 +6,18 @@
       <e p="2670Fall.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\EventFolder" t="Include">
+        <e p="BecomeInvisibleEvent.cs" t="Include" />
         <e p="CollisionEvent.cs" t="Include" />
         <e p="DestroyEvent.cs" t="Include" />
         <e p="DisableEvent.cs" t="Include" />
         <e p="MouseDownEvent.cs" t="Include" />
         <e p="MouseDrag.cs" t="Include" />
+        <e p="NewBehaviourScript.cs" t="Include" />
+        <e p="ParticleTriggerEvent.cs" t="Include" />
         <e p="TriggerEnterEvent.cs" t="Include" />
+        <e p="TriggerExitEvent.cs" t="Include" />
         <e p="UpdateEvent.cs" t="Include" />
+        <e p="ValidateEvent.cs" t="Include" />
       </e>
       <e p="Assets\EventScript.cs" t="Include" />
       <e p="Assets\MoarEvents.cs" t="Include" />
