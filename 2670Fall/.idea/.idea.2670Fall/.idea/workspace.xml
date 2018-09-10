@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/EventFolder/CharacterController/FloatInput.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <marker date="1536178705922" expanded="true" signature="6:78" ph="..." />
                 <marker date="1536178705922" expanded="true" signature="133:246" ph="{...}" />
@@ -122,8 +122,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="83" />
-    <option name="y" value="1022" />
+    <option name="x" value="148" />
+    <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="780" />
   </component>
@@ -193,6 +193,7 @@
       <workItem from="1535677683410" duration="428000" />
 <<<<<<< Updated upstream
       <workItem from="1536034977379" duration="1517000" />
+<<<<<<< Updated upstream
       <workItem from="1536175037833" duration="4080000" />
 =======
 <<<<<<< HEAD
@@ -202,10 +203,14 @@
       <workItem from="1536175037833" duration="4080000" />
 >>>>>>> master
 >>>>>>> Stashed changes
+=======
+      <workItem from="1536175037833" duration="4355000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="17299000" />
 =======
@@ -214,6 +219,9 @@
 =======
     <option name="totallyTimeSpent" value="17299000" />
 >>>>>>> master
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="17574000" />
 >>>>>>> Stashed changes
   </component>
   <component name="TodoView">
@@ -227,6 +235,7 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <frame x="83" y="1022" width="1440" height="780" extended-state="0" />
     <editor active="true" />
 =======
@@ -236,6 +245,9 @@
     <frame x="83" y="1022" width="1440" height="780" extended-state="0" />
     <editor active="true" />
 >>>>>>> master
+>>>>>>> Stashed changes
+=======
+    <frame x="148" y="22" width="1440" height="780" extended-state="0" />
 >>>>>>> Stashed changes
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,7 +396,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/EventFolder/CharacterController/FloatInput.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <marker date="1536178705922" expanded="true" signature="6:78" ph="..." />
             <marker date="1536178705922" expanded="true" signature="133:246" ph="{...}" />
