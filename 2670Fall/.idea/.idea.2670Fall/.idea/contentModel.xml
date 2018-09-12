@@ -9,10 +9,13 @@
         <e p="EventFolder" t="Include">
           <e p="BecomeInvisibleEvent.cs" t="Include" />
           <e p="CharacterController" t="Include">
+            <e p="FloatBool.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
             <e p="MoveExample.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternDual.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
           </e>
           <e p="CollisionEvent.cs" t="Include" />
           <e p="DestroyEvent.cs" t="Include" />

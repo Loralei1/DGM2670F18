@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: Normal Move Pattern
   m_EditorClassIdentifier: 
   jumpSpeed: {fileID: 11400000, guid: 54cc0b630537d164980983b3d6892925, type: 2}
-  gravity: {fileID: 11400000, guid: d37720e6b02bf5747b12dd8e5f8d807b, type: 2}
+  gravity: {fileID: 11400000, guid: 1b7467d3982ecc1429fbe77d6896c8c6, type: 2}
   MoveX: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}
-  MoveY: {fileID: 11400000, guid: 337b63a161e9b1746bc952c0418e2cae, type: 2}
+  MoveY: {fileID: 11400000, guid: a985d49df62c3484ea92714e9456e62d, type: 2}
   MoveZ: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}
   RotX: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}
   RotY: {fileID: 11400000, guid: 54cc0b630537d164980983b3d6892925, type: 2}
