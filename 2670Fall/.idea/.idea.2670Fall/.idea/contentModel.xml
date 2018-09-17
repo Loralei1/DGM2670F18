@@ -9,6 +9,7 @@
         <e p="EventFolder" t="Include">
           <e p="BecomeInvisibleEvent.cs" t="Include" />
           <e p="CharacterController" t="Include">
+            <e p="AiAgent.cs" t="Include" />
             <e p="FloatBool.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
