@@ -14,8 +14,6 @@ public class PowerUpGive : MonoBehaviour
 
 		public GameObject other;
 
-		public float PowerLevel;
-
 
 
 		private void OnTriggerEnter(Collider obj)

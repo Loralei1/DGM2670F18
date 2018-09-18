@@ -5,7 +5,7 @@ using UnityEngine;
 public class ColorChange : MonoBehaviour {
 
 
-		public enum gates {Gate, Endgate, RedGate};
+		public enum gates {Gate, DeadGate, RedGate};
 
 		public gates gatename; 
 
@@ -15,8 +15,6 @@ public class ColorChange : MonoBehaviour {
 			switch (gatename)
 
 			{case (gates.Gate):
-
-					//do color change stuff
 
 					other.GetComponent<Renderer> ().material.color = GetComponent<Renderer> ().material.color;
 
@@ -28,9 +26,9 @@ public class ColorChange : MonoBehaviour {
 
 					break;
 
-				case (gates.Endgate):
+				case (gates.DeadGate):
 
-					print ("Wh-w-wait a minute? Whatever happened to just plain old lavender blue dilly dilly dilly dilly? Silly.");
+					gameObject.SetActive(false);
 
 					break; 
 

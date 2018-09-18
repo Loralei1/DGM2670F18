@@ -8,8 +8,6 @@ public class Obstacles : MonoBehaviour {
 
 	public int HitsTaken; 
 
-	public GameObject other;
-
 	public GameObject AddMember;
 
 
@@ -30,7 +28,7 @@ public class Obstacles : MonoBehaviour {
 
 	{
 
-		if (other.gameObject.CompareTag ("Rock")) {
+		if (other.gameObject.CompareTag ("Rover")) {
 
 			Enemies.Add (AddMember.gameObject);
 
@@ -40,6 +38,10 @@ public class Obstacles : MonoBehaviour {
 
 		}
 
+		while (HitsTaken >= 5)
+		{
+			print("Oh no!");
+		}
 			
 
 	}
