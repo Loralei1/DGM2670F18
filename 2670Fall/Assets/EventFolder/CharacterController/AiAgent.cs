@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.Permissions;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Experimental.PlayerLoop;
+//using UnityEngine.Experimental.PlayerLoop;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class AiAgent : MonoBehaviour
