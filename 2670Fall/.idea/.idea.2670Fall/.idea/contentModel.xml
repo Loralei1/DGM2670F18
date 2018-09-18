@@ -5,6 +5,42 @@
     <e p="C:\Users\msear\Documents\GitRepos\DGM2670F18\2670Fall" t="IncludeRecursive">
       <e p="2670Fall.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+<<<<<<< HEAD
+      <e p="Assets" t="Include">
+        <e p="EventFolder" t="Include">
+          <e p="BecomeInvisibleEvent.cs" t="Include" />
+          <e p="CharacterController" t="Include">
+            <e p="AiAgent.cs" t="Include" />
+            <e p="FloatBool.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+            <e p="MoveExample.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternDual.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
+          </e>
+          <e p="CollisionEvent.cs" t="Include" />
+          <e p="DestroyEvent.cs" t="Include" />
+          <e p="DisableEvent.cs" t="Include" />
+          <e p="MouseDownEvent.cs" t="Include" />
+          <e p="MouseDrag.cs" t="Include" />
+          <e p="OnDrawGizmosEvent.cs" t="Include" />
+          <e p="ParticleTriggerEvent.cs" t="Include" />
+          <e p="TriggerEnterEvent.cs" t="Include" />
+          <e p="TriggerExitEvent.cs" t="Include" />
+          <e p="UpdateEvent.cs" t="Include" />
+          <e p="ValidateEvent.cs" t="Include" />
+        </e>
+        <e p="EventScript.cs" t="Include" />
+        <e p="MoarEvents.cs" t="Include" />
+        <e p="PowerUpConfig.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Death.cs" t="Include" />
+          <e p="Disable.cs" t="Include" />
+          <e p="FloatValue.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
+          <e p="IfStatements.cs" t="Include" />
+=======
       <e p="Assets\EventFolder" t="Include">
         <e p="BecomeInvisibleEvent.cs" t="Include" />
         <e p="CharacterController" t="Include">
@@ -21,6 +57,7 @@
           <e p="PowerUp.cs" t="Include" />
           <e p="PowerUpGive.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
+>>>>>>> master
         </e>
         <e p="CollisionEvent.cs" t="Include" />
         <e p="DestroyEvent.cs" t="Include" />
