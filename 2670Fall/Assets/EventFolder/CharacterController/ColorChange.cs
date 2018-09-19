@@ -5,28 +5,31 @@ using UnityEngine;
 public class ColorChange : MonoBehaviour {
 
 
-		public enum gates {Gate, DeadGate, RedGate};
+		//public enum gates {Gate, DeadGate, RedGate};
+	
+		public enum pickups {FlyPickUp, DiePickUp, DoorPickUp}
 
-		public gates gatename; 
-
+		//public gates gatename; 
+		public pickups pickupname;
 		
 		void OnTriggerExit(Collider other) {
 
-			switch (gatename)
+			switch (pickupname)
 
-			{case (gates.Gate):
+			{case (pickups.FlyPickUp):
+				//case (gates.Gate):
 
 					other.GetComponent<Renderer> ().material.color = GetComponent<Renderer> ().material.color;
 
 					break;
 
-				case (gates.RedGate):
+				case (pickups.DiePickUp):
 
 					print ("Red.");
 
 					break;
 
-				case (gates.DeadGate):
+				case (pickups.DoorPickUp):
 
 					gameObject.SetActive(false);
 

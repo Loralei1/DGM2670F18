@@ -14,11 +14,14 @@ public class AiAgent : MonoBehaviour
     //public bool CanChase;
     public Transform postpoint;
     private Transform finalDestination;
+    public FloatData Speed;
     
     private void Start()
 
     {
+        
         agent = GetComponent<NavMeshAgent>();
+        agent.speed = Speed.Value;
         finalDestination = transform;
     }
 
