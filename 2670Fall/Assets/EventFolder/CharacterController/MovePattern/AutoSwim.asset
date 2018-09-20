@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c1513ed7d694f418a9a477300315bc, type: 3}
+  m_Name: AutoSwim
+  m_EditorClassIdentifier: 
+  jumpSpeed: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}
+  gravity: {fileID: 11400000, guid: d089b07ac14696c428a0ced6f3532d4a, type: 2}
+  MoveX: {fileID: 11400000, guid: 788f941f3aa852d4b9387cf4b7d8c1c1, type: 2}
+  MoveY: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}
+  MoveZ: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}
+  RotX: {fileID: 11400000, guid: 8a36249882405fa43be789522deede38, type: 2}
+  RotY: {fileID: 11400000, guid: e3076e1f7d9c53744a478cfbd769d75a, type: 2}
+  RotZ: {fileID: 11400000, guid: aa72fe74047481d46bf227f651533fc8, type: 2}

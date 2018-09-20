@@ -7,7 +7,7 @@ public class BoxSwitch : MonoBehaviour {
 
 		
 	
-		public enum pickups {TransferPickUp, EnemyPickUp, DoorPickUp}
+		public enum pickups {TransferPickUp, Enemy, DoorPickUp}
 
 	
 		public pickups pickupname;
@@ -16,37 +16,33 @@ public class BoxSwitch : MonoBehaviour {
 		
 		void OnTriggerExit(Collider obj) {
 
-			switch (pickupname)
+			if (obj.gameObject.CompareTag("Player"))
+			{
 
-			{case (pickups.TransferPickUp):
-			
+				switch (pickupname)
 
-					obj.GetComponent<MoveExample>().MovePattern = PowerUpTransfer.Transfer();
-					break;
+				{
+					case (pickups.TransferPickUp):
 
-				case (pickups.EnemyPickUp):
 
-					gameObject.SetActive(false);
-					HitsTaken += 1;
+						obj.GetComponent<MoveExample>().MovePattern = PowerUpTransfer.Transfer();
+						break;
 
-					break;
+					case (pickups.Enemy):
 
-				case (pickups.DoorPickUp):
+						HitsTaken += 1;
 
-					gameObject.SetActive(false);
+						break;
 
-					break; 
+					case (pickups.DoorPickUp):
 
+						gameObject.SetActive(false);
+
+						break;
+
+				}
 			}
 
-			
-
-
-
-		
-
 		}
-
-	
 
 	}	
