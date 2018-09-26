@@ -6,41 +6,47 @@
       <e p="2670Fall.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\EventFolder" t="Include">
-        <e p="BecomeInvisibleEvent.cs" t="Include" />
-        <e p="CharacterController" t="Include">
-          <e p="AiAgent.cs" t="Include" />
-          <e p="BoxSwitch.cs" t="Include" />
-          <e p="DeleteDoor.cs" t="Include" />
-          <e p="FloatBool.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
-          <e p="FloatInput.cs" t="Include" />
-          <e p="ForEachLoop.cs" t="Include" />
-          <e p="MovePattern" t="Include">
-            <e p="MoveExample.cs" t="Include" />
-            <e p="MovePattern.cs" t="Include" />
-            <e p="MovePatternDual.cs" t="Include" />
-            <e p="MovePatternNotGrounded.cs" t="Include" />
+      <e p="Assets\CharacterControllerScene" t="Include">
+        <e p="EventFolder" t="Include">
+          <e p="BecomeInvisibleEvent.cs" t="Include" />
+          <e p="CharacterController" t="Include">
+            <e p="AiAgent.cs" t="Include" />
+            <e p="BoxSwitch.cs" t="Include" />
+            <e p="DeleteDoor.cs" t="Include" />
+            <e p="FloatBool.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+            <e p="ForEachLoop.cs" t="Include" />
+            <e p="Hyper Casual Demo" t="Include">
+              <e p="Letter.cs" t="Include" />
+              <e p="Word.cs" t="Include" />
+            </e>
+            <e p="MovePattern" t="Include">
+              <e p="MoveExample.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="MovePatternDual.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+            </e>
+            <e p="Obstacles.cs" t="Include" />
+            <e p="Patrol.cs" t="Include" />
+            <e p="PowerUp.cs" t="Include" />
+            <e p="PowerUpGive.cs" t="Include" />
+            <e p="RunCountDown.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+            <e p="Tribbles.cs" t="Include" />
           </e>
-          <e p="Obstacles.cs" t="Include" />
-          <e p="Patrol.cs" t="Include" />
-          <e p="PowerUp.cs" t="Include" />
-          <e p="PowerUpGive.cs" t="Include" />
-          <e p="RunCountDown.cs" t="Include" />
-          <e p="Sound.cs" t="Include" />
-          <e p="Tribbles.cs" t="Include" />
+          <e p="CollisionEvent.cs" t="Include" />
+          <e p="DestroyEvent.cs" t="Include" />
+          <e p="DisableEvent.cs" t="Include" />
+          <e p="MouseDownEvent.cs" t="Include" />
+          <e p="MouseDrag.cs" t="Include" />
+          <e p="OnDrawGizmosEvent.cs" t="Include" />
+          <e p="ParticleTriggerEvent.cs" t="Include" />
+          <e p="TriggerEnterEvent.cs" t="Include" />
+          <e p="TriggerExitEvent.cs" t="Include" />
+          <e p="UpdateEvent.cs" t="Include" />
+          <e p="ValidateEvent.cs" t="Include" />
         </e>
-        <e p="CollisionEvent.cs" t="Include" />
-        <e p="DestroyEvent.cs" t="Include" />
-        <e p="DisableEvent.cs" t="Include" />
-        <e p="MouseDownEvent.cs" t="Include" />
-        <e p="MouseDrag.cs" t="Include" />
-        <e p="OnDrawGizmosEvent.cs" t="Include" />
-        <e p="ParticleTriggerEvent.cs" t="Include" />
-        <e p="TriggerEnterEvent.cs" t="Include" />
-        <e p="TriggerExitEvent.cs" t="Include" />
-        <e p="UpdateEvent.cs" t="Include" />
-        <e p="ValidateEvent.cs" t="Include" />
       </e>
       <e p="Assets\EventScript.cs" t="Include" />
       <e p="Assets\MoarEvents.cs" t="Include" />
@@ -175,6 +181,7 @@
         <e p="FloatValue.cs" t="Include" />
         <e p="HealthBar.cs" t="Include" />
         <e p="IfStatements.cs" t="Include" />
+        <e p="Letters.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
