@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\msear\.Rider2018.1\System\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_PteroGame.2103685132.00" t="ExcludeRecursive" />
+    <e p="C:\Users\msear\Documents\GitRepos\DGM2670F18\PteroGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Things I Might Need" t="Include">
+        <e p="Drag.cs" t="Include" />
+        <e p="Liopleurodon.cs" t="Include" />
+        <e p="Pterasaur.cs" t="Include" />
+        <e p="RandomCountDown.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PteroGame.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
