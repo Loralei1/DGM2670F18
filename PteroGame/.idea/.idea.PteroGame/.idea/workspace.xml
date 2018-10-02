@@ -14,8 +14,13 @@
       <file leaf-file-name="Drag.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="75">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <marker date="1538098784723" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538098784723" expanded="true" signature="113:219" ph="{...}" />
+                <marker date="1538098784723" expanded="true" signature="172:217" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,13 +73,16 @@
       <file leaf-file-name="GroundDrag.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/GroundDrag.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+            <state relative-caret-position="120">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
-                <marker date="1538184021260" expanded="false" signature="6:113" ph="..." />
-                <marker date="1538184021260" expanded="true" signature="154:685" ph="{...}" />
-                <marker date="1538184021260" expanded="true" signature="213:683" ph="{...}" />
-                <marker date="1538184021260" expanded="true" signature="219:680" ph="/* somehow allow the player to create and or draw the ground ... */" />
+                <marker date="1538510453984" expanded="false" signature="6:113" ph="..." />
+                <marker date="1538510453984" expanded="true" signature="180:1888" ph="{...}" />
+                <marker date="1538510453984" expanded="true" signature="238:427" ph="/* public UnityEvent dragBegin; ... */" />
+                <marker date="1538510453984" expanded="true" signature="456:521" ph="{...}" />
+                <marker date="1538510453984" expanded="true" signature="549:599" ph="{...}" />
+                <marker date="1538510453984" expanded="true" signature="602:1310" ph="/* public GameObject Ground; ... */" />
+                <marker date="1538510453984" expanded="true" signature="1313:1886" ph="/* [RequireComponent(typeof(BoxCollider2D))] ... */" />
               </folding>
             </state>
           </provider>
@@ -99,12 +107,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Liopleurodon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Pterasaur.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/GroundDrag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/RandomCountDown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Liopleurodon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Pterasaur.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/GroundDrag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/RandomCountDown.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Things I Might Need/Destroy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -130,7 +138,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-27" />
     <option name="y" value="144" />
-    <option name="width" value="1440" />
+    <option name="width" value="1439" />
     <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -139,6 +147,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -152,10 +164,6 @@
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,11 +200,12 @@
       <updated>1538098581307</updated>
       <workItem from="1538098598605" duration="1588000" />
       <workItem from="1538180369028" duration="3915000" />
+      <workItem from="1538507864852" duration="2971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5503000" />
+    <option name="totallyTimeSpent" value="8474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,21 +217,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-27" y="144" width="1440" height="780" extended-state="0" />
+    <frame x="-27" y="144" width="1439" height="780" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574329" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,6 +250,84 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1538098784723" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538098784723" expanded="true" signature="113:219" ph="{...}" />
+            <marker date="1538098784723" expanded="true" signature="172:217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Liopleurodon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1538099158507" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538099158507" expanded="true" signature="121:291" ph="{...}" />
+            <marker date="1538099158507" expanded="true" signature="200:289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Pterasaur.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding>
+            <marker date="1538181426457" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538181426457" expanded="true" signature="119:1718" ph="{...}" />
+            <marker date="1538181426457" expanded="true" signature="148:1716" ph="{...}" />
+            <marker date="1538181426457" expanded="true" signature="154:1713" ph="/* allow player to select pterasaur ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Destroy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1538182512939" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538182512939" expanded="true" signature="138:429" ph="{...}" />
+            <marker date="1538182512939" expanded="true" signature="237:267" ph="{...}" />
+            <marker date="1538182512939" expanded="true" signature="312:420" ph="{...}" />
+            <marker date="1538182512939" expanded="true" signature="343:406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/RandomCountDown.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="130" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
+          <folding>
+            <marker date="1538100057287" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538100057287" expanded="true" signature="125:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/GroundDrag.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <marker date="1538510453984" expanded="false" signature="6:113" ph="..." />
+            <marker date="1538510453984" expanded="true" signature="180:1888" ph="{...}" />
+            <marker date="1538510453984" expanded="true" signature="238:427" ph="/* public UnityEvent dragBegin; ... */" />
+            <marker date="1538510453984" expanded="true" signature="456:521" ph="{...}" />
+            <marker date="1538510453984" expanded="true" signature="549:599" ph="{...}" />
+            <marker date="1538510453984" expanded="true" signature="602:1310" ph="/* public GameObject Ground; ... */" />
+            <marker date="1538510453984" expanded="true" signature="1313:1886" ph="/* [RequireComponent(typeof(BoxCollider2D))] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -281,13 +368,6 @@
             <marker date="1538181426457" expanded="true" signature="148:1716" ph="{...}" />
             <marker date="1538181426457" expanded="true" signature="154:1713" ph="/* allow player to select pterasaur ... */" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -341,15 +421,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/Drag.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1538098784723" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538098784723" expanded="true" signature="113:219" ph="{...}" />
+            <marker date="1538098784723" expanded="true" signature="172:217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Things I Might Need/GroundDrag.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        <state relative-caret-position="120">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <marker date="1538184021260" expanded="false" signature="6:113" ph="..." />
-            <marker date="1538184021260" expanded="true" signature="154:685" ph="{...}" />
-            <marker date="1538184021260" expanded="true" signature="213:683" ph="{...}" />
-            <marker date="1538184021260" expanded="true" signature="219:680" ph="/* somehow allow the player to create and or draw the ground ... */" />
+            <marker date="1538510453984" expanded="false" signature="6:113" ph="..." />
+            <marker date="1538510453984" expanded="true" signature="180:1888" ph="{...}" />
+            <marker date="1538510453984" expanded="true" signature="238:427" ph="/* public UnityEvent dragBegin; ... */" />
+            <marker date="1538510453984" expanded="true" signature="456:521" ph="{...}" />
+            <marker date="1538510453984" expanded="true" signature="549:599" ph="{...}" />
+            <marker date="1538510453984" expanded="true" signature="602:1310" ph="/* public GameObject Ground; ... */" />
+            <marker date="1538510453984" expanded="true" signature="1313:1886" ph="/* [RequireComponent(typeof(BoxCollider2D))] ... */" />
           </folding>
         </state>
       </provider>

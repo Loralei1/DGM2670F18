@@ -5,6 +5,7 @@
     <e p="C:\Users\msear\Documents\GitRepos\DGM2670F18\PteroGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Things I Might Need" t="Include">
+        <e p="Death.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
         <e p="Drag.cs" t="Include" />
         <e p="GroundDrag.cs" t="Include" />
