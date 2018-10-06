@@ -21,6 +21,8 @@
               <e p="ChangeColorOnTrigger.cs" t="Include" />
               <e p="Letter.cs" t="Include" />
               <e p="MatchID.cs" t="Include" />
+              <e p="NameIDS.cs" t="Include" />
+              <e p="NewIdeas.cs" t="Include" />
               <e p="Objects" t="Include">
                 <e p="ColorData.cs" t="Include" />
               </e>
