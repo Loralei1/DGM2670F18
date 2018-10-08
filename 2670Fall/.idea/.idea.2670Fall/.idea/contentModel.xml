@@ -18,7 +18,15 @@
             <e p="FloatInput.cs" t="Include" />
             <e p="ForEachLoop.cs" t="Include" />
             <e p="Hyper Casual Demo" t="Include">
+              <e p="ChangeColorOnTrigger.cs" t="Include" />
               <e p="Letter.cs" t="Include" />
+              <e p="MatchID.cs" t="Include" />
+              <e p="NameIDS.cs" t="Include" />
+              <e p="NewIdeas.cs" t="Include" />
+              <e p="Objects" t="Include">
+                <e p="ColorData.cs" t="Include" />
+              </e>
+              <e p="TriggerEnterEventTwo.cs" t="Include" />
               <e p="Word.cs" t="Include" />
             </e>
             <e p="MovePattern" t="Include">
