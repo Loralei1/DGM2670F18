@@ -19,7 +19,8 @@
               <e p="FloatInput.cs" t="Include" />
               <e p="ForEachLoop.cs" t="Include" />
               <e p="Hyper Casual Demo" t="Include">
-                <e p="ChangeColorOnTrigger.cs" t="Include" />
+                <e p="ChangeColor.cs" t="Include" />
+                <e p="Draggable.cs" t="Include" />
                 <e p="GenericCountdown.cs" t="Include" />
                 <e p="InfiniteCounter.cs" t="Include" />
                 <e p="InstanceObject.cs" t="Include" />
@@ -30,6 +31,8 @@
                 <e p="Objects" t="Include">
                   <e p="ColorData.cs" t="Include" />
                 </e>
+                <e p="SnapOn.cs" t="Include" />
+                <e p="StartBehaviour.cs" t="Include" />
                 <e p="TriggerEnterEventTwo.cs" t="Include" />
                 <e p="Word.cs" t="Include" />
               </e>
@@ -62,6 +65,56 @@
         </e>
         <e p="EventScript.cs" t="Include" />
         <e p="MoarEvents.cs" t="Include" />
+        <e p="NavMeshComponents" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshPrefabInstanceEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="AgentLinkMover.cs" t="Include" />
+                <e p="ClickToMove.cs" t="Include" />
+                <e p="DestroyOnTrigger.cs" t="Include" />
+                <e p="DungeonManager.cs" t="Include" />
+                <e p="EnableIffSleeping.cs" t="Include" />
+                <e p="FreeCam.cs" t="Include" />
+                <e p="LocalNavMeshBuilder.cs" t="Include" />
+                <e p="MeshTool.cs" t="Include" />
+                <e p="NavMeshPrefabInstance.cs" t="Include" />
+                <e p="NavMeshSourceTag.cs" t="Include" />
+                <e p="Oscillator.cs" t="Include" />
+                <e p="RandomInstancing.cs" t="Include" />
+                <e p="RandomWalk.cs" t="Include" />
+                <e p="SpawnPrefabOnKeyDown.cs" t="Include" />
+              </e>
+            </e>
+            <e p="NavMeshComponents" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                <e p="NavMeshLinkEditor.cs" t="Include" />
+                <e p="NavMeshModifierEditor.cs" t="Include" />
+                <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                <e p="NavMeshSurfaceEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="NavMeshLink.cs" t="Include" />
+                <e p="NavMeshModifier.cs" t="Include" />
+                <e p="NavMeshModifierVolume.cs" t="Include" />
+                <e p="NavMeshSurface.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tests" t="Include">
+              <e p="NavMeshSurfaceAgentTests.cs" t="Include" />
+              <e p="NavMeshSurfaceLinkTests.cs" t="Include" />
+              <e p="NavMeshSurfaceModifierTests.cs" t="Include" />
+              <e p="NavMeshSurfaceModifierVolumeTests.cs" t="Include" />
+              <e p="NavMeshSurfaceTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
+          </e>
+        </e>
         <e p="PowerUpConfig.cs" t="Include" />
         <e p="ProCore" t="Include">
           <e p="ProBuilder" t="Include">
@@ -197,6 +250,11 @@
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsExamples.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsExamplesEditor.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsPlaymodeTests.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp" t="ExcludeRecursive">
