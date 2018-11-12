@@ -14,6 +14,7 @@
               <e p="AiAgent.cs" t="Include" />
               <e p="BoxSwitch.cs" t="Include" />
               <e p="DeleteDoor.cs" t="Include" />
+              <e p="Destroyer.cs" t="Include" />
               <e p="FloatBool.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
               <e p="FloatInput.cs" t="Include" />
@@ -26,6 +27,7 @@
                 <e p="InstanceObject.cs" t="Include" />
                 <e p="Letter.cs" t="Include" />
                 <e p="MatchID.cs" t="Include" />
+                <e p="MouseFollow.cs" t="Include" />
                 <e p="NameIDS.cs" t="Include" />
                 <e p="NewIdeas.cs" t="Include" />
                 <e p="Objects" t="Include">
